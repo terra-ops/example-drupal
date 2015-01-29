@@ -11,6 +11,6 @@ default:
     Behat\MinkExtension:
       goutte: ~
       selenium2: ~
-      base_url: http://drupalfake.com
+      base_url: http://drupal.org
     Drupal\DrupalExtension:
       blackbox: ~
