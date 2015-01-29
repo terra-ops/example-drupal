@@ -5,7 +5,10 @@ Feature: Test DrupalContext
 
   Scenario: Test the ability to find a heading in a region
     Given I am on the homepage
-    Then I should see "Come for the software"
-    When I click "Get Started"
-    Then I should see "Download Drupal"
+    Then I should see "DrupalCamp NJ 2015"
+    And I should see "Princeton University"
+    When I click "Get About"
+    Then I should see "Announcing Paul M. Jones as the Keynote"
+    And when I click "Attendees"
+    Then I should see "Jon Pugh"
 
