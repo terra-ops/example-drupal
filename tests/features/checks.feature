@@ -9,6 +9,6 @@ Feature: Test DrupalContext
     And I should see "Princeton University"
     When I click "Get About"
     Then I should see "Announcing Paul M. Jones as the Keynote"
-    And when I click "Attendees"
+    When I click "Attendees"
     Then I should see "Jon Pugh"
 
