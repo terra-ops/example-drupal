@@ -1,4 +1,4 @@
-<?php
+BREAK!<?php
 BROKEN!
 /**
  * @file
