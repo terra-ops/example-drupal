@@ -9,3 +9,4 @@ Feature: Test Standard Installation
     And I should see "User login"
     And I should see "No front page content has been created yet."
     And I should not see "Wordpress"    
+    And I should see "NuCivic"
