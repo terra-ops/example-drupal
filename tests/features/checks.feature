@@ -7,4 +7,5 @@ Feature: Test Standard Installation
     Given I am on the homepage
     Then I should see "Home"
     And I should see "User login"
-    
+    And I should see "No front page content has been created yet."
+    And I should not see "Wordpress"    
