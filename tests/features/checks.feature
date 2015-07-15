@@ -10,3 +10,4 @@ Feature: Test Standard Installation
     And I should see "No front page content has been created yet."
     And I should not see "Wordpress"    
     And I should see "Welcome to Our Drupal Site"
+    And I should see "Create new account"
