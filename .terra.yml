@@ -10,3 +10,7 @@ hooks:
       );" >> sites/default/settings.php
       mkdir sites/default/files
       chmod 777 sites/default/files
+    test: |
+      cd tests
+      composer install
+      bin/behat --colors
