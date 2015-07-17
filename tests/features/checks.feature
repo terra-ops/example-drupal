@@ -5,6 +5,7 @@ Feature: Test Standard Installation
 
   Scenario: Look for standard things that should be on the page.
     Given I am on the homepage
+    Then print current URL
     Then I should see "Home"
     And I should see "User login"
     And I should see "No front page content has been created yet."
