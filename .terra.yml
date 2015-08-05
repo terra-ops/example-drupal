@@ -10,6 +10,9 @@ hooks:
       );" >> sites/default/settings.php
       mkdir sites/default/files
       chmod 777 sites/default/files
+    enable_first: |
+      drush {{alias}} site-install -y
+      drush {{alias}} uli
     test: |
       cd tests
       composer install
